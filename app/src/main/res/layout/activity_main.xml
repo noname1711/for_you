@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/nen"
+    tools:context=".MainActivity">
+
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_gravity="center"
+            android:layout_marginTop="250dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Muốn vô thì phải nhập: Emyeuanh "
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:textColor="#ffffff"/>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Em muốn nói với a là:"
+            android:textColor="#ffffff"/>
+
+        <EditText
+            android:id="@+id/edtPassWord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="#ffffff"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnXacThuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bắt đầu nào :3"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>

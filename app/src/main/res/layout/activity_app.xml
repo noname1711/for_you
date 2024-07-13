@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/nen1"
+    tools:context=".AppActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:shadowColor="#F34040"
+        android:text="Vậy là nhóc đã thú nhận roài =)))"
+        android:textColor="#D32B1F"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:shadowColor="#F34040"
+        android:textColor="#D32B1F"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:text="Và đây sẽ là thông tin về người yêu nhóc" />
+
+    <Button
+        android:id="@+id/btnFace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#77C2E4"
+        android:text="Facebook anh ấy" />
+
+    <Button
+        android:id="@+id/btnTruong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#77C2E4"
+        android:text="Trường anh ấy đang học" />
+
+    <Button
+        android:id="@+id/btnSdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#77C2E4"
+        android:text="Số điện thoại anh ấy" />
+
+    <Button
+        android:id="@+id/btnNy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#77C2E4"
+        android:text="Và người anh ấy muốn yêu thương" />
+
+    <Button
+        android:id="@+id/btnHelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#77C2E4"
+        android:text="Bé có thể giúp anh tí được không" />
+</LinearLayout>
